@@ -10,19 +10,19 @@ public class DListNode {
 	}
 	
 	public Object getItem() {
-		return item;
+		return this.item;
 	}
 	public void setItem(Object item) {
 		this.item = item;
 	}
 	public DListNode getPrev() {
-		return prev;
+		return this.prev;
 	}
 	public void setPrev(DListNode prev) {
 		this.prev = prev;
 	}
 	public DListNode getNext() {
-		return next;
+		return this.next;
 	}
 	public void setNext(DListNode next) {
 		this.next = next;
